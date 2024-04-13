@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../network"
+		},
+		{
+			"path": "../Danjo/Django-Framework-"
+		},
+		{
+			"path": "../AI"
+		},
+		{
+			"path": "../degrees"
+		},
+		{
+			"path": "../TIc-Tac-Toe"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
