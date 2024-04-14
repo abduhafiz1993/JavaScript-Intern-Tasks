@@ -27,3 +27,13 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         errorMessage.style.display = 'none';
     }
 });
+
+var dynamicContentDiv = document.getElementById('empty');
+
+document.getElementById('adding').addEventListener('click', function (){
+
+for (let i = 1; i <= 5; i++){
+    var paragraph = document.createElement('p');
+    paragraph.textContent = 'Message ' + i; // Unique message or text
+    dynamicContentDiv.appendChild(paragraph);
+}});
